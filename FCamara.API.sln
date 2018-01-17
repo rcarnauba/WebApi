@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FCamara.API", "FCamara.API\FCamara.API.csproj", "{5704011D-531D-43E8-A309-7B655D7B683E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCamara.DAL", "FCamara.DAL\FCamara.DAL.csproj", "{A59E2983-7BB6-4BDC-B5AA-066719E52FB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCamara.Service", "FCamara.BS\FCamara.Service.csproj", "{89185ADC-CA3D-424B-9149-6B12793EA16B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCamara.MOD", "FCamara.MOD\FCamara.MOD.csproj", "{F4F1DB22-7F81-436A-A6A0-3AA0949DFAEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCamara.Testes", "FCamara.Testes\FCamara.Testes.csproj", "{643BDABD-AC92-4A63-9BD7-4A0F6C5C8136}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5704011D-531D-43E8-A309-7B655D7B683E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5704011D-531D-43E8-A309-7B655D7B683E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5704011D-531D-43E8-A309-7B655D7B683E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5704011D-531D-43E8-A309-7B655D7B683E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A59E2983-7BB6-4BDC-B5AA-066719E52FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A59E2983-7BB6-4BDC-B5AA-066719E52FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A59E2983-7BB6-4BDC-B5AA-066719E52FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A59E2983-7BB6-4BDC-B5AA-066719E52FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89185ADC-CA3D-424B-9149-6B12793EA16B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89185ADC-CA3D-424B-9149-6B12793EA16B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89185ADC-CA3D-424B-9149-6B12793EA16B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89185ADC-CA3D-424B-9149-6B12793EA16B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4F1DB22-7F81-436A-A6A0-3AA0949DFAEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4F1DB22-7F81-436A-A6A0-3AA0949DFAEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4F1DB22-7F81-436A-A6A0-3AA0949DFAEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4F1DB22-7F81-436A-A6A0-3AA0949DFAEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{643BDABD-AC92-4A63-9BD7-4A0F6C5C8136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{643BDABD-AC92-4A63-9BD7-4A0F6C5C8136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{643BDABD-AC92-4A63-9BD7-4A0F6C5C8136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{643BDABD-AC92-4A63-9BD7-4A0F6C5C8136}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA281E41-1759-493B-953D-D20D4FF7FB38}
+	EndGlobalSection
+EndGlobal
