@@ -1,0 +1,51 @@
+﻿
+
+USE [FCamara1]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+USE [FCamara1]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Produto] (
+    [CodigoProduto]    INT           IDENTITY (1, 1) NOT NULL,
+    [NomeProduto]      VARCHAR (100) NOT NULL,
+    [DescricaoProduto] VARCHAR (200) NOT NULL,
+    [CategoriaProduto] INT           NOT NULL,
+    [DataCadastro]     DATETIME      NOT NULL,
+    [Valor]            DECIMAL (18)  NOT NULL,
+    [Ativo]            BIT           NOT NULL,
+    [MarcaProduto]     VARCHAR (100) NOT NULL
+);
+
+USE [FCamara1]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Usuario] (
+    [CodigoUsuario] INT           IDENTITY (1, 1) NOT NULL,
+    [Nome]          VARCHAR (200) NOT NULL,
+    [Email]         VARCHAR (200) NOT NULL,
+    [Senha]         VARCHAR (50)  NOT NULL,
+    [Ativo]         BIT           NOT NULL,
+    [DataCadastro]  DATETIME      NOT NULL
+);
+
+INSERT INTO [dbo].[Usuario] ( [Nome], [Email], [Senha], [Ativo], [DataCadastro]) VALUES ( N'Fcamara', N'fcamara@fcamara.com', N'teste', 1, SYSDATETIME());
+
+INSERT INTO [dbo].[Produto] ( [NomeProduto], [DescricaoProduto], [CategoriaProduto], [DataCadastro], [Valor], [Ativo], [MarcaProduto]) VALUES ( N'Tenis', N'Tenis para running', 1,  SYSDATETIME(), CAST(10 AS Decimal(18, 0)), 1, N'nike');
+INSERT INTO [dbo].[Produto] ( [NomeProduto], [DescricaoProduto], [CategoriaProduto], [DataCadastro], [Valor], [Ativo], [MarcaProduto]) VALUES ( N'Bola', N'Bola para futebold de salão', 1,  SYSDATETIME(), CAST(12 AS Decimal(18, 0)), 1, N'Addidas');
+INSERT INTO [dbo].[Produto] ( [NomeProduto], [DescricaoProduto], [CategoriaProduto], [DataCadastro], [Valor], [Ativo], [MarcaProduto]) VALUES ( N'Camiseta', N'Camiseta para jogo', 1,  SYSDATETIME(), CAST(10 AS Decimal(18, 0)), 1, N'Umbro');
+INSERT INTO [dbo].[Produto] ( [NomeProduto], [DescricaoProduto], [CategoriaProduto], [DataCadastro], [Valor], [Ativo], [MarcaProduto]) VALUES ( N'Tenis', N'Tenis para running', 1,  SYSDATETIME(), CAST(10 AS Decimal(18, 0)), 1, N'nike');
+INSERT INTO [dbo].[Produto] ( [NomeProduto], [DescricaoProduto], [CategoriaProduto], [DataCadastro], [Valor], [Ativo], [MarcaProduto]) VALUES ( N'Bicicleta', N'Bicicleta de corrida', 1,  SYSDATETIME(), CAST(12 AS Decimal(18, 0)), 1, N'Addidas');
+INSERT INTO [dbo].[Produto] ( [NomeProduto], [DescricaoProduto], [CategoriaProduto], [DataCadastro], [Valor], [Ativo], [MarcaProduto]) VALUES ( N'Capacete', N'Capacete de bicicleta', 1,  SYSDATETIME(), CAST(10 AS Decimal(18, 0)), 1, N'Umbro');
+
+
